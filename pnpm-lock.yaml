@@ -5,12 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@eslint/js':
+    specifier: ^9.25.1
+    version: 9.25.1
   eslint-import-resolver-typescript:
     specifier: ^4.3.4
     version: 4.3.4(eslint-plugin-import@2.31.0)(eslint@9.25.1)
-  eslint-js:
-    specifier: github:eslint/js
-    version: github.com/eslint/js/b66adb97f296764d2d9290d7f13aa9c2cfeff4b8
   eslint-plugin-import:
     specifier: ^2.31.0
     version: 2.31.0(@typescript-eslint/parser@8.31.0)(eslint-import-resolver-typescript@4.3.4)(eslint@9.25.1)
@@ -2123,12 +2123,6 @@ packages:
   /yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
-
-  github.com/eslint/js/b66adb97f296764d2d9290d7f13aa9c2cfeff4b8:
-    resolution: {tarball: https://codeload.github.com/eslint/js/tar.gz/b66adb97f296764d2d9290d7f13aa9c2cfeff4b8}
-    name: eslint-js
-    version: 1.0.0
-    dev: false
 
   github.com/kami-engine/prettier-config/1fcc7cd9ab06533875f4276889b4a5e6470c7c56(prettier@3.5.3):
     resolution: {tarball: https://codeload.github.com/kami-engine/prettier-config/tar.gz/1fcc7cd9ab06533875f4276889b4a5e6470c7c56}
