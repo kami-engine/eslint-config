@@ -1,0 +1,28 @@
+{
+  "name": "@kami-engine/eslint-config",
+  "version": "1.0.0",
+  "description": "Eslint config for @kami-engine projects",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "type": "module",
+  "keywords": [],
+  "author": "Jurmerlo",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-import-resolver-typescript": "^4.3.4",
+    "eslint-js": "github:eslint/js",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "typescript-eslint": "^8.31.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 9"
+  },
+  "devDependencies": {
+    "@kami-engine/prettier-config": "github:kami-engine/prettier-config",
+    "eslint": "^9.25.1",
+    "prettier": "^3.5.3"
+  }
+}
